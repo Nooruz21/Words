@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GameOneActivity">
+    tools:context=".GameTwoActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +19,7 @@
             android:layout_height="150dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/radius"
-            android:backgroundTint="@color/teal_700"
+            android:backgroundTint="@color/black"
             android:scaleType="centerCrop" />
 
         <ImageView
@@ -27,7 +28,7 @@
             android:layout_height="150dp"
             android:layout_marginStart="8dp"
             android:background="@drawable/radius"
-            android:backgroundTint="@color/teal_700"
+            android:backgroundTint="@color/black"
             android:scaleType="centerCrop" />
 
     </LinearLayout>
@@ -44,7 +45,7 @@
             android:layout_height="150dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/radius"
-            android:backgroundTint="@color/teal_700"
+            android:backgroundTint="@color/black"
             android:scaleType="centerCrop" />
 
         <ImageView
@@ -53,7 +54,7 @@
             android:layout_height="150dp"
             android:layout_marginStart="8dp"
             android:background="@drawable/radius"
-            android:backgroundTint="@color/teal_700"
+            android:backgroundTint="@color/black"
             android:scaleType="centerCrop" />
 
     </LinearLayout>
@@ -66,7 +67,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/ed_letter"
+            android:id="@+id/et_letter"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_style"
@@ -100,7 +101,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="П"
+            android:text="Е"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -112,7 +113,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="Р"
+            android:text="Ш"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -124,7 +125,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="О"
+            android:text="П"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -136,7 +137,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="Г"
+            android:text="Ь"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -148,7 +149,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="Р"
+            android:text="О"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -160,7 +161,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="А"
+            android:text="Т"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -181,7 +182,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="М"
+            android:text="Ь"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -193,7 +194,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="М"
+            android:text="Р"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -205,7 +206,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="И"
+            android:text="А"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -217,7 +218,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="Т"
+            android:text="Я"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -247,6 +248,7 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_check"
         android:layout_width="match_parent"
