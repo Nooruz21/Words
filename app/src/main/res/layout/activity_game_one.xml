@@ -124,7 +124,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="О"
+            android:text="Н"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -136,7 +136,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="Г"
+            android:text="А"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -217,7 +217,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="Т"
+            android:text="Е"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />

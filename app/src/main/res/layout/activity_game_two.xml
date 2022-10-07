@@ -125,7 +125,7 @@
             android:layout_marginHorizontal="8dp"
             android:background="@drawable/letter_style"
             android:gravity="center"
-            android:text="П"
+            android:text="К"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />

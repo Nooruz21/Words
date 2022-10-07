@@ -17,7 +17,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 public class GameTwoActivity extends AppCompatActivity {
 
     private ActivityGameTwoBinding binding;
-    private static final String CORRECT_WORD = "ПРОГРАММИСТ";
+    private static final String CORRECT_WORD = "ПРОГРАММА";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +71,7 @@ public class GameTwoActivity extends AppCompatActivity {
             finish();
         });
         alertDialog.show();
+
     }
 
     private void initClearLetter() {

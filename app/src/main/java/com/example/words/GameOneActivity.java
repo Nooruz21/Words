@@ -14,9 +14,8 @@ import com.example.words.databinding.ActivityGameOneBinding;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 public class GameOneActivity extends AppCompatActivity {
-
     private ActivityGameOneBinding binding;
-    private static final String CORRECT_WORD = "ПРОГРАММИСТ";
+    private static final String CORRECT_WORD = "АНИМЕ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +69,8 @@ public class GameOneActivity extends AppCompatActivity {
             finish();
         });
         alertDialog.show();
+
+
     }
 
     private void initClearLetter() {
@@ -202,4 +203,5 @@ public class GameOneActivity extends AppCompatActivity {
 
 
     }
+
 }
